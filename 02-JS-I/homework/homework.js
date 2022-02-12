@@ -57,7 +57,7 @@ function multiplica(x, y) {
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  return (x/y);
+  return (x / y);
   
 }
 
@@ -73,10 +73,14 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
+  if str1.length === str2.lenght {
+    return true;
+   } else {
+     return false;
+    }
   
-  return str1.length === str2.lenght;
-
 }
+
 
 function menosQueNoventa(num) {
  
