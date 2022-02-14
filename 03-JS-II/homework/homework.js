@@ -58,20 +58,21 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-  if (idioma = "aleman") {
-    return "Guten Tag!"
-
-  }
-  if (idioma = "mandarin") {
-    return "Ni Hao!" 
-  }
-  if (idioma = "ingles") {
-    return "Hello"
-  }
-  else {
-    return "Hola"
-  }
-}
+ switch(idioma) {
+   case "aleman":
+     "Guten Tag!"
+     break
+   case "mandarin":
+     "Ni Hao!"
+     break
+    case "ingles":
+      "Hello"
+      break
+      default:
+        "Hola!"
+ 
+     }
+         }
 
 function colors(color) {
   //La función recibe un color. Devolver el string correspondiente:
