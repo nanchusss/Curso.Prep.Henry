@@ -64,10 +64,10 @@ function saludo(idioma) {
     return "Guten Tag!"
 
   }
-  if (idioma === "mandarin") {
+  else if (idioma === "mandarin") {
     return "Ni Hao!" 
   }
-  if (idioma === "ingles") {
+  else if (idioma === "ingles") {
     return "Hello"
   }
   else {
