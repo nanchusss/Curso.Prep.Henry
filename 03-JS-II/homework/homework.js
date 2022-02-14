@@ -71,7 +71,7 @@ function saludo(idioma) {
     return "Hello!"
   }
   else {
-    return "Hola"
+    return "Hola!"
   }
 }
 
