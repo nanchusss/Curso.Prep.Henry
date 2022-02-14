@@ -40,14 +40,16 @@ function conection(status) {
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
   if (status===1) {
-    return "Online"
+    return "Online";
 
   } 
-  if (status === 2)
+  else if (status === 2)
  {
-   return "Away" }
+   return "Away";
+   }
    else {
-     return "Offline"
+
+     return "Offline";
    }
  }
 
@@ -58,21 +60,20 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
- switch(idioma) {
-   case "aleman":
-     "Guten Tag!"
-     break
-   case "mandarin":
-     "Ni Hao!"
-     break
-    case "ingles":
-      "Hello"
-      break
-      default:
-        "Hola!"
- 
-     }
-         }
+  if (idioma === "aleman") {
+    return "Guten Tag!"
+
+  }
+  if (idioma === "mandarin") {
+    return "Ni Hao!" 
+  }
+  if (idioma === "ingles") {
+    return "Hello"
+  }
+  else {
+    return "Hola"
+  }
+}
 
 function colors(color) {
   //La función recibe un color. Devolver el string correspondiente:
@@ -82,6 +83,13 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
+  if (color === "blue") {
+    return "This is blue" 
+  } if (color === "red") {
+    return "This is red" 
+  } if else (color === "green") {
+    return "This is green"
+  } if else 
 }
 
 function esDiezOCinco(numero) {
