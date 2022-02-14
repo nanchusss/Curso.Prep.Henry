@@ -68,7 +68,7 @@ function saludo(idioma) {
     return "Ni Hao!" 
   }
   else if (idioma === "ingles") {
-    return "Hello"
+    return "Hello!"
   }
   else {
     return "Hola"
