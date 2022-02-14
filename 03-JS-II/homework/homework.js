@@ -85,11 +85,15 @@ function colors(color) {
   //Usar el statement Switch.
   if (color === "blue") {
     return "This is blue" 
-  } if (color === "red") {
+  } else if (color === "red") {
     return "This is red" 
-  } if else (color === "green") {
+  } else if (color === "green") {
     return "This is green"
-  } if else 
+  } else if (color === "orange") {
+    return "This is orange"
+  } else {
+    return "Color not found"
+  }
 }
 
 function esDiezOCinco(numero) {
