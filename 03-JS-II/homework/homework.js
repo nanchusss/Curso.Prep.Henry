@@ -6,15 +6,14 @@ function obtenerMayor(x, y) {
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
   if (x === y) {
-    console.log(x || y); 
-  }
-
+    return x || y; 
+  } 
       if (x > y) {
-        console.log(x);
+        return x;
 
       }
-  if (x<y) {
-    console.log(y);  }
+  if (x < y) {
+    return y;  }
   
 }
 
