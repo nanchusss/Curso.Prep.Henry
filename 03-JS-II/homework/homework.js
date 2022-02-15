@@ -114,7 +114,7 @@ function estaEnRango(numero) {
   if (numero < 50 && numero > 20) {
     return true;
   }
-  if (!numero < 50 && numero > 20) {
+  else if (!numero < 50 && numero > 20) {
       return false;
     }
 
