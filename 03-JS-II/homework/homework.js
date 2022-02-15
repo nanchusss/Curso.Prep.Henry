@@ -250,7 +250,7 @@ var i = 0;
    i = i+1 
    j = j+5
  }
- while (i>8);
+ while (i<8);
  return j;
  }
 
