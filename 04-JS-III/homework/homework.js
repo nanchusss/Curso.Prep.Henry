@@ -29,7 +29,7 @@ function incrementarPorUno(array) {
   
   for (var i = 0; i < array.length; i++); 
 
-    return newarray[i]
+    return array[i]
   }
 
 
@@ -70,7 +70,12 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
- 
+ var array = [1, 2, "elemento"]
+ if(array.includes("elemento")) {
+   return true
+ } else { 
+   return false
+ }
   }
 
 
@@ -80,6 +85,7 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+
 }
 
 
