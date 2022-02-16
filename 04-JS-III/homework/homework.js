@@ -26,12 +26,15 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  var nuevoarray = []
-  for (var i = 0; i < array.length; i++); {
-  
-      return nuevoarray + array[i]
-  }
-}
+  function sumaruno(array) {
+    var array = [1,2,3,4,5]
+    var nuevoarray = []
+    for(i=0; i<array.length; i++)  {
+    nuevoarray[i] = array[i] + 1;
+    }
+    return nuevoarray;
+    
+    }
 
 
 
@@ -71,12 +74,13 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
- var array = [1, 2, "elemento"]
- if(array.includes("elemento")) {
-   return true
- } else { 
-   return false
+ var nuevaarray = []
+ for(i=0; i<array.length; i++) {
+   nuevaarray[i] = array [i] = elemento
  }
+ return nuevaarray
+
+
   }
 
 
@@ -204,3 +208,4 @@ module.exports = {
   breakStatement,
   continueStatement
 };
+}
