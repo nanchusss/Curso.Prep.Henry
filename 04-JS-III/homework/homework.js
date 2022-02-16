@@ -27,7 +27,7 @@ function incrementarPorUno(array) {
   // y devuelve el array
   // Tu código:
   for (var i = 0; i < array.length; i++);
-  return 1 + array ^ [i];
+  return 1 + array[i];
 
 
 }
