@@ -62,7 +62,7 @@ function dePalabrasAFrase(palabras) {
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
   var palabras = ["Hello", "world"];
-  var frase = palabras.split(" ")
+  var frase = palabras.join(" ")
 
   return frase;
 }
