@@ -70,7 +70,10 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
-  return array.find(elemento);
+  var array = [1,2,3,4,5]
+  var encontrar = array.includes(3);
+  return encontrar; }
+
 }
 
 
