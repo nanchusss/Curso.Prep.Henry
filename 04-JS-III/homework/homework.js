@@ -74,9 +74,10 @@ function arrayContiene(array, elemento) {
 
   if(array[i] === elemento) {
       return true
-  } 
+  } else {
 
       return false 
+}
 }
 }
 
