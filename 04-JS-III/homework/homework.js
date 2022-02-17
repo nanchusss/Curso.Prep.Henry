@@ -151,7 +151,17 @@ function diaDeLaSemana(numeroDeDia) {
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí   
 
+  var diadesemana = [1, 2, 3,4, 5]
+  var finde = [6, 7];
+  if (numeroDeDia <= 5)
+      {
+    return "Es dia Laboral"
+  }
+  else {
+    return "Es fin de semana"
+  }
 }
+
 
 
 function empiezaConNueve(n) {
