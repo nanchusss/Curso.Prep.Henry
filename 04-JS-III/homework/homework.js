@@ -37,9 +37,6 @@ function incrementarPorUno(array) {
     }
 
 
-
-
-
 function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
@@ -76,7 +73,7 @@ function arrayContiene(array, elemento) {
   // Tu código:
  var nuevaarray = []
  for(i=0; i<array.length; i++) {
-   nuevaarray[i] = array [i] = elemento
+   nuevaarray[i] = array [i] = "elemento"
  }
  return nuevaarray
 
@@ -84,14 +81,18 @@ function arrayContiene(array, elemento) {
   }
 
 
-
-
 function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+  var numeros = [1,1,1,1,1];
+  var suma = 0;
+  for(i=0;i<numeros.length;i++) {
+     var producto = suma += numeros[i];
+  }
+return producto;
+  }
 
-}
 
 
 function promedioResultadosTest(resultadosTest) {
@@ -208,4 +209,3 @@ module.exports = {
   breakStatement,
   continueStatement
 };
-}
