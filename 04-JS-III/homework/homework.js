@@ -90,10 +90,10 @@ function agregarNumeros(numeros) {
   var suma = 0
   for(var i = 0; i<numeros.length; i++)
  {
-  suma = suma + numeros[i] 
+  suma = suma + numeros[i]  }
  return suma;
  }
-}
+
 
 
 function promedioResultadosTest(resultadosTest) {
