@@ -26,15 +26,14 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  function sumaruno(array) {
-    var array = [1,2,3,4,5]
-    var nuevoarray = []
-    for(i=0; i<array.length; i++)  {
-    nuevoarray[i] = array[i] + 1;
-    }
-    return nuevoarray;
-    
-    }
+  
+  for (var i = 0; i < array.length; i++); 
+  {
+  return (1 + array[i]);
+  }
+
+
+}
 
 
 function agregarItemAlFinalDelArray(array, elemento) {
@@ -71,28 +70,14 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
- var nuevaarray = []
- for(i=0; i<array.length; i++) {
-   nuevaarray[i] = array [i] = "elemento"
- }
- return nuevaarray
-
-
-  }
+}
 
 
 function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
-  var numeros = [1,1,1,1,1];
-  var suma = 0;
-  for(i=0;i<numeros.length;i++) {
-     var producto = suma += numeros[i];
-  }
-return producto;
-  }
-
+}
 
 
 function promedioResultadosTest(resultadosTest) {
