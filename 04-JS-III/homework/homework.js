@@ -26,10 +26,10 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  var nuevoarray = []
+  var nuevoarray = 0
   for (var i = 0; i < array.length; i++); 
   {
-    nuevoarray = nuevoarray[i] + array[i] + 1 }
+    nuevoarray = nuevoarray + array[i] + 1 }
 
   return nuevoarray;
 
@@ -100,14 +100,12 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
- 
-    var suma = 0
-     for(var i = 0; i<resultadosTest.length; i++) {
-       suma = suma + resultadosTest[i] }
+  var promedio = 0
+  for(var i = 0; i<resultadosTest.length; i++) {
+    promedio = promedio + resultadosTest[i] }
 
-         return suma/resultadosTest.length;
-   }
-  
+      return promedio/resultadosTest.length;
+}
 
 
 
