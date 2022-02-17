@@ -128,7 +128,7 @@ function multiplicarArgumentos() {
   }
   return sum;
 }
-}
+
 
 
 function cuentoElementos(arreglo) {
