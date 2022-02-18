@@ -122,8 +122,23 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
+  var arguments = []
+  for(i=0; i< arguments.length; i++) {
+    if(arguments > 1) 
+  arguments = arguments[i]*arguments[i] 
+  }
+  return arguments} 
   
-}
+  if(arguments.length <1) {
+    return 0; }
+
+  else if(arguments.lengt === 1) {
+    return argument
+  }
+    }
+  }
+  
+
 
 
 
@@ -179,16 +194,8 @@ function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí  
-  if(typeof array !== "undefined")
-  {
-    var primerelemento = array[0];
-    return array.every(function(element)
-  {
-    return element === primerelemento;
-
-  });
 }
-}
+ 
 
 
 
