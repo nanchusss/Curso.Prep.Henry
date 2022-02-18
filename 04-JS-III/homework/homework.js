@@ -123,15 +123,22 @@ function multiplicarArgumentos() {
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
   
-  if(args.length === 0) return 0;
+  if(arguments.length === 0) 
+    return 0; 
 
-  let product = 1;
-
-  for (let i = 0; i < args.length; i++) {
-    product = product * args[i];
-  }
+  else if(arguments.lengt === 1) 
+    return arguments
   
-  return product;
+  let producto = 1
+  for(i=0; i< arguments.length; i++) {
+    if(arguments > 1) 
+  producto = producto*arguments[i];
+   {
+  
+  return producto
+  
+  }
+}
 }
 
 
@@ -181,7 +188,12 @@ function empiezaConNueve(n) {
   //Escribe tu código aquí
   //la verdad que podrían dar más indicaciones para resolver, aunque sea pistas. 
  
-
+var numero = n + "";
+if(numero(0) === 9) {
+return true}
+else {
+  return false
+}
 }
 
 
