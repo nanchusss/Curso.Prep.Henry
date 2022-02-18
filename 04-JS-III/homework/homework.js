@@ -133,14 +133,12 @@ function multiplicarArgumentos() {
   for(i=0; i< arguments.length; i++) {
   
   producto = producto*arguments[i];
-   {
-  
+   
+
   return producto
   
   }
 }
-}
-
 
 
 
