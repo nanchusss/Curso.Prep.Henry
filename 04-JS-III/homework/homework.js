@@ -136,7 +136,7 @@ function cuentoElementos(arreglo) {
     { 
       if(arreglo[i] > 19) {
 
-        cantidad = cantidad[i] + arreglo.length
+        cantidad = arreglo[i] + cantidad
       }
       return cantidad
     }
@@ -169,6 +169,8 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
+  //la verdad que podrían dar más indicaciones para resolver, aunque sea pistas. 
+ 
 
 }
 
@@ -177,8 +179,17 @@ function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí  
+  if(typeof array !== "undefined")
+  {
+    var primerelemento = array[0];
+    return array.every(function(element)
+  {
+    return element === primerelemento;
 
+  });
 }
+}
+
 
 
 function mesesDelAño(array) {
