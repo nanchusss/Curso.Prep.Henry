@@ -218,7 +218,19 @@ function esVerdadero(valor){
 function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
-  //Escribe tu código aquí   
+ 
+ //Escribe tu código aquí   
+
+var tabla = []
+var numero = 6
+
+for(var i = 0; i <= 10; i++) {
+tabla.push(numero*i)
+
+
+}
+  return tabla
+
 }
 
   
@@ -247,8 +259,8 @@ function doWhile(numero) {
 var j = numero;
 var i = 0;
  do {
-   i = i+1 
-   j = j+5
+   j = j  + 5
+   i++
  }
  while (i<8);
  return j;
