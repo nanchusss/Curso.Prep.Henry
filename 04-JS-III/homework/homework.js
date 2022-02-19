@@ -26,15 +26,19 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  var nuevoarray = 0
-  for (var i = 0; i < array.length; i++); 
+
+  var nuevoarray = [];
+
+  for (var i = 0; i < array.length; i++)
   {
-    nuevoarray = nuevoarray + array[i] + 1 }
+    nuevoarray[i] = array[i] + 1;
+   }
 
   return nuevoarray;
 
+  }
 
-}
+
 
 
 function agregarItemAlFinalDelArray(array, elemento) {
@@ -122,17 +126,17 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
+  var producto = 1
   
   if(arguments.length === 0) 
     return 0; 
-
+ 
   else if(arguments.lengt === 1) 
     return arguments
   
-  let producto = 1
   for(i=0; i< arguments.length; i++) {
-    if(arguments > 1) 
-  producto = producto*arguments[i];
+    producto = producto* arguments[i] 
+  
    {
   
   return producto
