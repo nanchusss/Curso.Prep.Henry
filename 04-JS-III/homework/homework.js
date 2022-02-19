@@ -155,15 +155,14 @@ function cuentoElementos(arreglo) {
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
 
-    var cantidad = 0;
-    for (i= 0; i < arreglo.length; i++);
-    { 
-      if(arreglo[i] > 19) {
+    var count = []
 
-        cantidad = arreglo[i] + cantidad
-      }
-      return cantidad
+    for(var i = 0; i < arreglo.length; i++) {
+      
+      if(arreglo[i] > 18) 
+      count++
     }
+    return count
   } 
 
 
