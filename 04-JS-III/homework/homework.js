@@ -209,7 +209,8 @@ function todosIguales(arreglo) {
   //Escribe tu código aquí  
   
   for(var i = 0; i<arreglo.length; i++) {
-    if(arreglo !== arreglo[i])
+
+    if(arreglo[0] !== arreglo[i])
     return false
   }
 return true
@@ -284,20 +285,19 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:
   var bank = [];
-  var suma = numero
+  var suma = numero;
   for(i= 0; i<10; i++) {
-   suma = numero + 2
-   
-   if(i== 5) {
-      continue;
-    } else {
+    
+     if(i=== 5) continue;
+  
+   else {
+     suma = suma + 2
       bank.push(suma);
     }
   }
-    if(i<10)
-    {
+    
     return bank
-    }
+    
   }
 
 
