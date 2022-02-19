@@ -189,7 +189,7 @@ function empiezaConNueve(n) {
   //la verdad que podrían dar más indicaciones para resolver, aunque sea pistas. 
  
 var numero = n + "";
-if(numero(0) === 9) {
+if(numero.charAt(0) == 9) {
 return true}
 else {
   return false
@@ -201,6 +201,12 @@ function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí  
+  
+  for(var i = 0; i<arreglo.length; i++) {
+    if(arreglo !== arreglo[i])
+    return false
+  }
+return true
 }
  
 
@@ -211,6 +217,17 @@ function mesesDelAño(array) {
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
+  var bank = []
+  for(var i = 0; i< array.length; i++)
+  {
+    if(array[i] === "Enero" || array[i] === "Marzo" || array[i] === "Noviembre" )
+    bank.push(array[i])     
+
+  }
+  if(bank.length<3) {
+    return "No se encontraron los meses pedidos"
+  }
+ return bank
 }
 
 
