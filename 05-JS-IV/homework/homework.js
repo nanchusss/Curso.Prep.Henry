@@ -117,7 +117,10 @@ function actualizarPassword(usuario, nuevaPassword) {
   // Reemplaza la contraseña existente en el objeto "usuario" con el valor de "nuevagPassword"
   // Devuelve el objeto
   // Tu código:
+   usuario.password = nuevaPassword
+   return usuario
 }
+
 
 function agregarAmigo(usuario, nuevoAmigo) {
   // "usuario" tiene una propiedad llamada "amigos" que es un array
