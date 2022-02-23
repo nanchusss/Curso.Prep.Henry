@@ -14,8 +14,8 @@ function crearUsuario() {
 
         this.usuario = opciones. usuario;
         this.nombre = opciones.nombre;
-        this.email = email.usuario;
-        this.password = password.usuario;
+        this.email = opciones.email;
+        this.password = opciones.password;
   
   }
     Usuario.prototype.saludar = function() {
@@ -31,7 +31,7 @@ function crearUsuario() {
     // El método debe llamarse "saludar" y debe devolver la string "Hello World!"
     // Tu código:
     Constructor.prototype.saludar = function() {
-        return "Hello World";
+        return "Hello World!";
     }
   }
   
