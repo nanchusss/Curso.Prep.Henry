@@ -42,15 +42,19 @@ function crearUsuario() {
     // 'toni'.reverse() => 'inot'
     // Pista: Necesitarás usar "this" dentro de "reverse"
 
-    String.prototype.reverse = function () {
+    String.prototype.reverse = function() {
+
         var stringinvertida = "";
-        for(i = this.length - 1; i <= 0; i--) {
-            stringinvertida = stringinvertida + this[i]
-        }
+        for(var i = this.length - 1; i >= 0; i--) {
+          stringinvertida = stringinvertida + this.charAt(i)
+        } 
+
+          
+       return stringinvertida;
+      }
     }
-
-
-  }
+    
+  
   
   // ---------------------------------------------------------------------------//
     //Crea el constructor de la clase "Persona"
