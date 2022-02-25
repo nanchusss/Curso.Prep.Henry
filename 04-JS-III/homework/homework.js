@@ -27,17 +27,11 @@ function incrementarPorUno(array) {
   // y devuelve el array
   // Tu código:
 
-  var nuevoarray = [];
-
-  for (var i = 0; i < array.length; i++)
-  {
-    nuevoarray[i] = array[i] + 1;
-   }
-
-  return nuevoarray;
-
-  }
-
+ var suma = array.map(function(numero) {
+ return numero + 1;
+  })
+return suma;
+}
 
 
 
@@ -67,7 +61,8 @@ function dePalabrasAFrase(palabras) {
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
 
-  return palabras.join(" ")
+  return palabras.join(" ");
+ 
 }
 
 
@@ -92,13 +87,10 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
-  var suma = 0
-  for(var i = 0; i<numeros.length; i++) {
-  suma = suma + numeros[i]  }
- return suma;
- }
+  var suma = numeros.reduce(function(anterior,actual){
+  return anterior + actual},0)
 
-
+  return suma}
 
 function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
